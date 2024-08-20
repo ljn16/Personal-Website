@@ -1,0 +1,39 @@
+nav {
+    // display: flex;
+    // background-color: red;  
+
+    height: 5vh;
+    width: 98vw;
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1vw;
+    // margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+    p {
+        font-size: xx-large;
+    }
+    
+    img {
+        height: 5vh;
+        width: 5vh;
+        // margin-top: 50%;
+        // margin-bottom: auto;
+        // border-radius: 50%;
+        // margin-right: 10px;
+        // align-self: center;
+        // justify-content: center;
+    }
+}
